@@ -26,9 +26,9 @@ yargs.command({
 // Create list command
 yargs.command({
     command: 'list',
-    describe: 'List a note',
+    describe: 'List notes',
     handler: function () {
-        console.log('List the note')
+        console.log('List the notes')
     }
 })
 
